@@ -4,6 +4,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.flutter</groupId>
   <artifactId>arm64_v8a_release</artifactId>
-  <version>1.0.0-42d3d75a-operit.9</version>
+  <version>1.0.0-42d3d75a-operit.9.1</version>
   <packaging>jar</packaging>
 </project>
