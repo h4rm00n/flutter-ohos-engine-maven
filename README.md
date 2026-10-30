@@ -9,8 +9,8 @@ patched Android engine (partial repaint, Vulkan/GLES) without
 
 | Coordinate | Contents |
 |---|---|
-| `io.flutter:arm64_v8a_release:1.0.0-42d3d75a-operit.9` | `lib/arm64-v8a/libflutter.so` |
-| `io.flutter:flutter_embedding_release:1.0.0-42d3d75a-operit.9` | Java embedding classes (unchanged from upstream) |
+| `io.flutter:arm64_v8a_release:1.0.0-42d3d75a-operit.9.2` | `lib/arm64-v8a/libflutter.so` |
+| `io.flutter:flutter_embedding_release:1.0.0-42d3d75a-operit.9.2` | Java embedding classes (unchanged from upstream) |
 
 ## Build provenance
 
@@ -35,7 +35,7 @@ allprojects {
     configurations.all {
         resolutionStrategy.eachDependency {
             if (requested.group == "io.flutter") {
-                useVersion("1.0.0-42d3d75a-operit.9")
+                useVersion("1.0.0-42d3d75a-operit.9.2")
             }
         }
     }
