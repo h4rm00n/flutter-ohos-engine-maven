@@ -45,6 +45,12 @@ allprojects {
 The repository is a plain static tree (`gh-pages`); no authentication is
 required.
 
+## Build environment
+
+Use JDK 17 for the Android build (the same version the project CI uses).
+JDK 21 rejects type-use `@NotNull` annotations in some Flutter plugin
+sources, which are only recompiled when the Gradle configuration changes.
+
 ## License
 
 The Flutter engine is distributed under the BSD 3-Clause license. See
